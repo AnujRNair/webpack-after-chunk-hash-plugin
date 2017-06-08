@@ -1,0 +1,33 @@
+{
+  "name": "webpack-after-chunk-hash-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin to rename chunks to incorporate their true hashes, after the chunks have been emitted",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujRNair/webpack-after-chunk-hash-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "chunk",
+    "hash",
+    "extract",
+    "text"
+  ],
+  "author": "Anuj Nair <anuj.r.nair@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnujRNair/webpack-after-chunk-hash-plugin/issues"
+  },
+  "homepage": "https://github.com/AnujRNair/webpack-after-chunk-hash-plugin#readme",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
